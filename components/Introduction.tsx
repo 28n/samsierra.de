@@ -10,7 +10,11 @@ const Background = styled.div`
 `;
 
 const Wrapper = styled.div`
-  width: calc(100% - 25vw);
+  width: calc(100% - 5vw);
+
+  @media (min-width: 1000px) {
+    width: calc(100% - 25vw);
+  }
 
   @media (min-width: 1200px) {
     width: calc(100% - 45vw);
