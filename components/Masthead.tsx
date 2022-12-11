@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Image from "next/image";
 
 const Background = styled.div`
-  background-color: #202020;
+  background-color: hsl(0, 0%, 10%);
   height: 100vh;
   width: 100%;
   color: white;
@@ -32,6 +32,10 @@ const ScrollDown = styled.div`
   button {
     background-color: transparent;
     border: none;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 `;
 
